@@ -47,10 +47,16 @@ Aplikacija će biti dostupna na adresi: http://localhost:5173/
 ---
 
 ### Izgled aplikacije prilikom unošenja partije
-![Unosenje partije u aplikaciju](./docs/unosenje.jpg)
+![Unosenje partije u aplikaciju](./docs/unosenje.JPG)
+
+Nakon svakog poteza,potez se u zapisuje u prozor pored ploče, te se partija sprema pritiskom na tipku "Spremi partiju". Također je moguće okretati ploču, odnosno moguće je gledati na ploču iz perspektive bijelog i crnog igrača.
 
 ### Izgled forme za unos informacija o partiji
-![Forma za unos informacija](./docs/forma.jpg)
+![Forma za unos informacija](./docs/forma.JPG)
+
+Prilikom spremanja partije, otvara se forma prikazana na slici, obavezne informacije su ime bijelog i crnog igrača, rezultat te datum kada je partija odigrana.
 
 ### Izgled aplikacije pri pregledavanju određene partije
-![Pregledavanje partije u aplikaciji](./docs/pregled.jpg)
+![Pregledavanje partije u aplikaciji](./docs/pregled.JPG)
+
+Pri pregledu partije, cijela partija prikazana je u prozoru pored ploče, te se potezi jedan po jedan odigravaju prilikom pritiska gumba "Sljedeći potez" ili "Vrati potez". Pored prozora s potezima, prikazane su informacije o partiji.
