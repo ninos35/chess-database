@@ -1,0 +1,55 @@
+#moves {
+  grid-column: 1 / span 2; 
+  grid-row: 2;
+  
+  height: 400px;
+  width: 400px;
+
+  display: grid;
+  grid-template-columns: 1fr 10% 1fr;
+  overflow-y: auto; 
+
+  grid-auto-rows: 50px;
+}
+
+
+#moves div {
+  height: 50px;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-left: none;
+  border-right: none;
+}
+#container{ 
+    border: 1px solid gray;
+    border-radius: 4px;
+    
+    height: 450px;
+    width: 400px;
+    display: grid; 
+}
+#container .header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    height: 50px;
+    padding: 10px;
+    gap: 1px;
+    background-color: rgba(128, 128, 128, 0.439);
+    position: sticky;
+    top:0;
+}
+#text {
+    height: 450px;
+    width: 400px;
+    display: grid; 
+    font-size: larger;
+}
+#moves .moveNumber{
+    border-left: none;
+    border-right: none;
+}
