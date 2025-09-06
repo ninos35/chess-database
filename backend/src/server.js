@@ -9,6 +9,7 @@ app.use(express.json());
 
 const { Client } = require("pg");
 
+//connect to your local database
 const client = new Client({
     host: "localhost",
     user: "postgres",
