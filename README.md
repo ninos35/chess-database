@@ -34,7 +34,7 @@ Aplikacija koristi React za frontend i Node.js s Expressom za backend, dok se po
 
 ### Frontend
 
-1. Otvori terminal i pozicioniraj se u folder `/frontend/GameBase/src/App`
+1. Otvori terminal i pozicioniraj se u folder `/frontend/GameBase`
 2. Instaliraj potrebne pakete naredbom:
    ```bash
    npm install
